@@ -1,0 +1,27 @@
+{
+  "intent2id": {
+    "add_constraint": 0,
+    "negation": 1,
+    "route_find": 2
+  },
+  "slot2id": {
+    "B-CAT_AVD": 0,
+    "B-CAT_INC": 1,
+    "B-DISTANCE": 2,
+    "B-DURATION": 3,
+    "B-ELEV_MIN": 4,
+    "B-PET": 5,
+    "B-RADIUS": 6,
+    "B-ROUTE_TYPE": 7,
+    "B-TIMEWIN": 8,
+    "I-CAT_INC": 9,
+    "I-DISTANCE": 10,
+    "I-DURATION": 11,
+    "I-ELEV_MIN": 12,
+    "I-PET": 13,
+    "I-RADIUS": 14,
+    "I-ROUTE_TYPE": 15,
+    "I-TIMEWIN": 16,
+    "O": 17
+  }
+}

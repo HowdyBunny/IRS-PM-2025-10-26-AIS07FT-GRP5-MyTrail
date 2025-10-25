@@ -1,0 +1,10 @@
+torch>=1.13
+transformers>=4.37
+seqeval>=1.2.2
+tqdm>=4.65
+numpy>=1.22
+tiktoken>=0.5.1
+protobuf>=4.23
+sentencepiece>=0.1.99
+flask>=2.2
+pydantic>=1.10,<2.0

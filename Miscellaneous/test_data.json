@@ -1,0 +1,139 @@
+[
+    {
+            "id": "route_1",
+            "name": "Via Supertree Grove Viewpoint, Esplanade Park +1 more",
+            "distance": 6024,
+            "duration": "5041s",
+            "waypoints": [
+                {
+                    "place_id": "ChIJkWHbygsZ2jERjkvNI-5be_8",
+                    "name": "Supertree Grove Viewpoint",
+                    "category": "park",
+                    "search_category": "nature",
+                    "location": {
+                        "lat": 1.281591,
+                        "lng": 103.8646819,
+                        "name": "Supertree Grove Viewpoint"
+                    },
+                    "rating": 4.8,
+                    "distance_km": 0.49
+                },
+                {
+                    "place_id": "ChIJLWy-d6cZ2jERxRto3g-f8vI",
+                    "name": "Esplanade Park",
+                    "category": "park",
+                    "search_category": "nature",
+                    "location": {
+                        "lat": 1.289901,
+                        "lng": 103.8538653,
+                        "name": "Esplanade Park"
+                    },
+                    "rating": 4.6,
+                    "distance_km": 1.05
+                },
+                {
+                    "place_id": "ChIJnWdQKQQZ2jERScXuKeFHyIE",
+                    "name": "ArtScience Museum",
+                    "category": "attraction",
+                    "search_category": "attraction",
+                    "location": {
+                        "lat": 1.2862738,
+                        "lng": 103.8592663,
+                        "name": "ArtScience Museum"
+                    },
+                    "rating": 4.4,
+                    "distance_km": 0.36
+                }
+            ],
+            "geometry": {
+                "overview_polyline": {
+                    "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@|AkBL_@BEVAX@RKLMdAd@v@Nj@@n@AZEn@OLBNNOOMCo@Ni@Da@@k@A}@Q_Ac@MLSJi@AG@ILK^yAbBgA`@cBXI@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAG\\K\\Yf@cAfA{BxCFXBT_@J_@n@W^\\g@Xg@^KGe@CIzByCn@s@b@i@HQPu@Fo@HyC?WDIHgCAi@DgCF{DRMGKMHBUF?@m@D?Ia@bABZIRSJWDYX?Db@\\rACpAm@nAA_@tAe@fAQfAAfA@b@FfAZbAb@RHKr@SF[\\H\\I]Z]b@iCTs@ZyAxB?@ArCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+                },
+                "viewport": {
+                    "low": {
+                        "latitude": 1.2816706,
+                        "longitude": 103.8546362
+                    },
+                    "high": {
+                        "latitude": 1.2912774,
+                        "longitude": 103.8648764
+                    }
+                }
+            },
+            "metadata": {
+                "center": [
+                    1.2834,
+                    103.8607
+                ],
+                "search_radius_km": 1.5,
+                "route_type": "loop",
+                "categories_used": [
+                    "attraction",
+                    "nature"
+                ]
+            },
+            "score": 0.8
+        },
+        {
+            "id": "route_2",
+            "name": "Via Golden Garden & Merlion",
+            "distance": 5826,
+            "duration": "4786s",
+            "waypoints": [
+                {
+                    "place_id": "ChIJjzZiUAIZ2jERNSoqcM46xEA",
+                    "name": "Golden Garden",
+                    "category": "park",
+                    "search_category": "park",
+                    "location": {
+                        "lat": 1.2823959,
+                        "lng": 103.8657672,
+                        "name": "Golden Garden"
+                    },
+                    "rating": 4.6,
+                    "distance_km": 0.57
+                },
+                {
+                    "place_id": "ChIJ29omWQgZ2jEROEz2yZFzQp8",
+                    "name": "Merlion",
+                    "category": "park",
+                    "search_category": "attraction",
+                    "location": {
+                        "lat": 1.2867892,
+                        "lng": 103.8545014,
+                        "name": "Merlion"
+                    },
+                    "rating": 4.7,
+                    "distance_km": 0.79
+                }
+            ],
+            "geometry": {
+                "overview_polyline": {
+                    "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@|AkBL_@BEVAX@RKLMNi@O{@Fi@R@dB[^ELEMDiBX[FSAGh@Nz@Oh@MLSJi@AG@ILK^yAbBgA`@cBXI@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAETJPAp@tCFK|EAjBRFTR|@`@dAVz@HnA?~AQj@AVCFIzAZfAVzCz@BD?tApBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+                },
+                "viewport": {
+                    "low": {
+                        "latitude": 1.2799579,
+                        "longitude": 103.8528274
+                    },
+                    "high": {
+                        "latitude": 1.2897374,
+                        "longitude": 103.8657926
+                    }
+                }
+            },
+            "metadata": {
+                "center": [
+                    1.2834,
+                    103.8607
+                ],
+                "search_radius_km": 1.5,
+                "route_type": "loop",
+                "categories_used": [
+                    "attraction",
+                    "park"
+                ]
+            },
+            "score": 0.8
+        }
+]

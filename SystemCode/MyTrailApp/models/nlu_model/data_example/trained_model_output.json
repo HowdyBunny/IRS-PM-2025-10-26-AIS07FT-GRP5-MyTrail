@@ -1,0 +1,60 @@
+{
+    "intent": {
+        "confidence": 0.6356122493743896,
+        "label": "route_find"
+    },
+    "slots": [
+        {
+            "label": "O",
+            "word": "I'm"
+        },
+        {
+            "label": "O",
+            "word": "looking"
+        },
+        {
+            "label": "O",
+            "word": "for"
+        },
+        {
+            "label": "O",
+            "word": "a"
+        },
+        {
+            "label": "B-DURATION",
+            "word": "1-hour"
+        },
+        {
+            "label": "O",
+            "word": "circular"
+        },
+        {
+            "label": "O",
+            "word": "route"
+        },
+        {
+            "label": "O",
+            "word": "that"
+        },
+        {
+            "label": "O",
+            "word": "passes"
+        },
+        {
+            "label": "O",
+            "word": "by"
+        },
+        {
+            "label": "B-CAT_INC",
+            "word": "parks"
+        },
+        {
+            "label": "O",
+            "word": "and"
+        },
+        {
+            "label": "B-CAT_INC",
+            "word": "restaurants."
+        }
+    ]
+}

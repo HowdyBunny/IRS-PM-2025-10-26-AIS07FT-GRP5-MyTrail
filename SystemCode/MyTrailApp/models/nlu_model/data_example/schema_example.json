@@ -1,0 +1,11 @@
+{
+  "radius_km": 5.0,
+  "duration_min": 60,
+  "distance_km": null,
+  "include_categories": ["park","restaurant"],
+  "avoid_categories": [],
+  "pet_friendly": false,
+  "elevation_gain_min_m": null,
+  "route_type": "loop",
+  "time_window": null
+}

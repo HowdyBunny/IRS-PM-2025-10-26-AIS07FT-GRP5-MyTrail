@@ -1,38 +1,25 @@
-﻿### [ Practice Module ] Project Submission Template: Github Repository & Zip File
-
-**[ Naming Convention ]** CourseCode-StartDate-BatchCode-TeamName-ProjectName.zip
-
-* **[ MTech Thru-Train Group Project Naming Example ]** IRS-PM-2020-01-18-IS02PT-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-* **[ MTech Stackable Group Project Naming Example ]** IRS-PM-2020-01-18-STK02-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-[Online editor for this README.md markdown file](https://pandao.github.io/editor.md/en.html "pandao")
-
----
-
-### <<<<<<<<<<<<<<<<<<<< Start of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
 ## SECTION 1 : PROJECT TITLE
-## Singapore Housing & Deveoplment Board - BTO Recommender System
+## IRS-PM-2025-10-26-AIS07FT-GRP5-MyTrail
 
-<img src="SystemCode/clips/static/hdb-bto.png"
-     style="float: left; margin-right: 0px;" />
+### Business Video
+
+[![MyTrail Introduction](https://img.youtube.com/vi/plQ_3Ccr2Wc/0.jpg)](https://www.youtube.com/watch?v=plQ_3Ccr2Wc)
 
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects. 
+MyTrail is an application for exploring cities, recording leisurely walks or outdoor walking tracks. This application will generate routes based on some ideas proposed by users through intelligent reasoning and unique optimization models, and quickly display them in the built-in Google Maps. Users can then select any route created by the intelligent system and start exploring the surrounding area. Since each location is generated in real time through the Google API, MyTrail can avoid outdated locations. In addition, user route selection and feedback are also data for training the inference model, which means that more and more user data can make the model smarter.
 
+Outdoor walking and running apps are widely adopted as health awareness grows. In places like Singapore—where dense urban fabric interleaves with parks and waterfronts—people frequently want novel, intent-aligned routes rather than static lists of attractions. Existing fitness apps focus on tracking and performance; lifestyle apps list venues but rarely transform free-form user intent into a closed-loop, non-crossing path.
 
-Our team, comprising of 6 young Singaporeans, all hope to be property owners one day. Many of our peers opt for BTO flats due to their affordability, existence of financial aid from the government, as well as their resale value. However, there often exists a knowledge gap for these young couples during the decision making process and they end up making potentially regretful decisions. We would like to bridge this knowledge gap, and have hence chosen to base our project on creating a recommender system for BTO flats, utilizing the data from recent launches in Tampines, Eunos, Sengkang and Punggol. 
+There are many apps on the market that offer content for exploring the surrounding area, but there is a gap in the field of combining route planning and generating routes based on user input. In particular, there are very few apps that help users explore the surrounding environment and combine intelligent systems to assist in decision-making. Users need to simplify the process of exploring and starting outdoor activities.
 
+* Lack of generative, exploration-oriented route creation.
 
-Using the techniques imparted to us in lectures, our group first set out to build a sizeable knowledge base via conducting an interview and administering a survey. While building the system, we utilized tools such as Java to scrape real time data from HDB website and transform it into a database, CLIPS to synthesize the rule based reasoning process, and Python to integrate it into an easy to use UI for the everyday user. To add icing on the cake, we even hosted the system on a website so that the everyday user can access it through the click of a link.
+- No intelligent ranking when multiple candidate routes exist.
+- Systems rarely understand user intent; they force fixed patterns or manual filters.
 
-
-Our team had an amazing time working on this project, and hope to share our insights with everyone. Despite a focus on BTO flats, we would recommend it for everybody interested in understanding property market trends for residence or investment purposes. There truly are a wide array of factors behind the decision to invest in a property, and we only wish there was more time to work on the scope and scale of the project. 
+MyTrail implements the workflow of user input-route generation, simplifies the user's operation complexity, and provides the function of converting user input into content that the system can understand, sorting and optimizing routes. Each time the user will get a different route, which may include parks, commercial areas, beaches, etc.
 
 ---
 
@@ -40,51 +27,96 @@ Our team had an amazing time working on this project, and hope to share our insi
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Desmond Chua | A1234567A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567A@nus.edu.sg |
-| Chang Ye Han | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Chee Jia Wei | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
-| Ganesh Kumar | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
-| Jeanette Lim | A1234567E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567E@qq.com |
+| Zheng Jiecheng | A0290838R | Team leader; NLU model training and deployment; 2-opt optimization implementation; Frontend development; | E1327869@u.nus.edu |
+| Zhao Ziyang | A0285923U | Ranking_linear regression model training&deployment; backend server ranking_service | E1221735@u.nus.edu |
+| Jin Ziping | A0263234L | Backend architecture& system design; Project technical scope; Development of Google map API service; System deployment design | E1010592@u.nus.edu |
+| Zhao Yuan | A0263565W | Development of route generation module; Implementation of polar angle optimization algorithms; project documentation | E1010933@u.nus.edu |
 
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
-
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
+[![MyTrail Technical Video](http://img.youtube.com/vi/QUgb5LyLT4E/0.jpg)](https://www.youtube.com/watch?v=QUgb5LyLT4E )
 
 ---
 
 ## SECTION 5 : USER GUIDE
 
-`Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
+`Refer to appendix <Appendix C_Installation and User Guide> in project report at Github Folder: ProjectReport`
 
-### [ 1 ] To run the system using iss-vm
+### To run the system on local machine (Your Mac and iPhone)
 
-> download pre-built virtual machine from http://bit.ly/iss-vm
+1. **Overview**
 
-> start iss-vm
+   The repository is organized as:
 
-> open terminal in iss-vm
+   - frontend_app/ — Flutter mobile app (primary target: iOS)
+   - backend/ — FastAPI server exposing REST endpoints.
+   - models/nlu_model/ — NLU training code and a lightweight inference service
 
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
+2. **Prerequisites**
 
-> $ source activate iss-env-py2
+   - **OS for iOS dev:** macOS 13+
+   - **Xcode:** 18+ (with iOS Simulator); CocoaPods 1.13+ (sudo gem install cocoapods)
+   - **Flutter SDK:** 3.x (Dart 3.x). Verify with flutter --version
+   - **Python:** 3.11 with pip (recommend using virtualenv)
+   - **Google Cloud keys**
+     - Maps **SDK for iOS** (for the embedded map in Flutter)
+     - **Places API** and **Directions API** keys (used by the backend)
+   - **OpenAI API keys**
+   - `$ git clone git@github.com:HowdyBunny/IRS-PM-2025-10-26-AIS07FT-GRP5-MyTrail.git`
 
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
+3. **API KEYs and Address Modification**
 
-> (iss-env-py2) $ python app.py
+   * iOS Maps SDK key: path: `ios/Runner/Info.plist`, find the `<key>GMSApiKey</key>` and modify
+   * Backend API keys：path: `app/config/config.py`, find and modify `google_maps_api_key,` `openai_api_key`, `openai_base_url`, `openai_model`,`mongo_db`(optinal)
+   * Model address: `nlu_basic_model_url`, `mongo_uri`
 
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
+4. **Backend Setup (FastAPI)**
 
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
+   Enter the backend folder and enter the terminal, enter the command：(create your python env first):
 
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
+   `pip install -r requirements.txt`
 
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+   `python -m uvicorn app.main:app --host 192.168.0.207 --port 8000 --reload`
+
+5. **NLU: Train and Serve（Flask）**
+
+   For train:
+
+   `cd models/nlu_model`
+
+   `pip install -r requirements.txt`
+
+   `python train.py`
+
+   For deployment:
+
+   `python app.py --host 0.0.0.0 --port 4000`
+
+6. **Frontend App**
+
+   `cd frontend_app`
+
+   `flutter pub get`
+
+   `flutter run`
+
+   **If running on a physical device:**
+
+   > Open ios/Runner.xcworkspace in Xcode.
+
+   > Set a unique **Bundle Identifier** and your **Apple Team** (signing)
+
+   > Build & run on your device.
+
+7. **Run Order (Dev)**
+
+   > **Start NLU** service (models/nlu_model/app.py on port 9000).
+
+   > **Start Backend** (uvicorn on port 8000), with NLU_BASE_URL pointing to #1.
+
+   > **Run Frontend** (flutter run) with backendBaseUrl pointing to #2.
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
@@ -92,41 +124,19 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 `Refer to project report at Github Folder: ProjectReport`
 
 **Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
+- Introduction
+- Business Case
+- System Design
+- Finding and Discussion
+- Future Work
+- Conclussion
+- Appendix A: Project Proposal
+- Appendix B: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
+- Appendix C: Installation and User Guide
 
 ---
 ## SECTION 7 : MISCELLANEOUS
 
 `Refer to Github Folder: Miscellaneous`
 
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
-
----
-
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
-**This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
-
-**Lecturer: [GU Zhan (Sam)](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan "GU Zhan (Sam)")**
-
-[![alt text](https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png "Let's check Sam' profile page")](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan)
-
-**zhan.gu@nus.edu.sg**
+Model Training Data

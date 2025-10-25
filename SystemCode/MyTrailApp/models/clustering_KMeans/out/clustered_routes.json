@@ -1,0 +1,1454 @@
+{
+  "themes": [
+    {
+      "id": "theme_1",
+      "ThemeName": "Park & Restaurant",
+      "Routes": [
+        {
+          "id": "route_1",
+          "name": "Via Bay East Garden & Fort Canning Tree Tunnel",
+          "distance": 10551,
+          "duration": "8752s",
+          "waypoints": [
+            {
+              "place_id": "ChIJnV5WzKwZ2jERJ8cM9ja9u_M",
+              "name": "Bay East Garden",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2881607,
+                "lng": 103.869858,
+                "name": "Bay East Garden"
+              },
+              "rating": 4.6,
+              "distance_km": 1.15
+            },
+            {
+              "place_id": "ChIJUc0YwKIZ2jERnCfsCKnOamE",
+              "name": "Fort Canning Tree Tunnel",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2972839999999999,
+                "lng": 103.846345,
+                "name": "Fort Canning Tree Tunnel"
+              },
+              "rating": 4.3,
+              "distance_km": 2.22
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAPa@Be@Eu@By@Ry@`@s@TWd@]\\o@?}@Lg@Ze@r@u@R_@Jc@@WTw@tAkCdBkCjBiCtAgBpAoALM`B}@v@M\\?W{@Ws@wImMvIlMb@jAJb@]?w@LaB|@i@d@eAlAeApAsDhF{AlC]t@Op@APKb@S^eAjAMXKh@@p@]n@e@\\UVa@r@Sx@Cx@D`ACXQ`@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAG\\K\\Yf@cAfA{BxCFXBT_@J_@n@_@p@IJWAQHGH^r@ELw@Y_@S{A~A]j@DFSPCG_@v@GZSb@mAvBSb@MHJFQXEAe@v@QRm@dAA?y@bBDB[v@GCmAdCMJMKYI}A_AYDOLmAxAsAz@URaAn@Qh@UjBQ`AO`B?z@EHVV^PWh@Ip@LA@IFCXBA?P@Jw@n@uBVc@d@_@\\QD?@@FCEg@R]\\YXMFKh@Ix@@x@JjANR?pBWP[hAg@d@GFARC|@k@@CAKJOZ{@HQEA\\y@HBABXFBG`@TdFrBDW~BeDDBRa@@@A@VPtAqBn@u@Ze@X[@KXe@JM\\Ap@gAFKF_@JATYFQRA?GbAMHCd@i@GG~AuBNGATLHFARMNQl@a@NQh@JH_AB@BGbEfAl@PpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2799578999999999,
+                "longitude": 103.84632839999999
+              },
+              "high": {
+                "latitude": 1.2974968,
+                "longitude": 103.873728
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "park"
+            ],
+            "predicted_score": 2.7966311197808724
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_6",
+          "name": "Via Garden by the Bay - Bay East, Carlton City Hotel Singapore +1 more",
+          "distance": 11776,
+          "duration": "9758s",
+          "waypoints": [
+            {
+              "place_id": "ChIJE6uwTPsZ2jERZFH4XI60LHw",
+              "name": "Garden by the Bay - Bay East",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2823935,
+                "lng": 103.87385959999999,
+                "name": "Garden by the Bay - Bay East"
+              },
+              "rating": 4.7,
+              "distance_km": 1.47
+            },
+            {
+              "place_id": "ChIJW-HHrWwZ2jERC16smRC_0NQ",
+              "name": "Carlton City Hotel Singapore",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2759801,
+                "lng": 103.8436052,
+                "name": "Carlton City Hotel Singapore"
+              },
+              "rating": 4.4,
+              "distance_km": 2.07
+            },
+            {
+              "place_id": "ChIJfyNkh6YZ2jERjHsd_P-iL_M",
+              "name": "Swissôtel The Stamford Singapore",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2936866,
+                "lng": 103.8533912,
+                "name": "Swissôtel The Stamford Singapore"
+              },
+              "rating": 4.5,
+              "distance_km": 1.4
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAPa@Be@Eu@By@Ry@`@s@TWd@]\\o@?}@Lg@Ze@r@u@R_@Jc@@WTw@tAkCdBkCjBiCtAgBpAoALM`B}@v@M\\?W{@Ws@_JwMA@@A~IvM`@CP?XF^R\\VXl@Hf@BVFJZTi@hAm@`ARZ?EJ^e@~@Yp@_AtC]vBI|@A`BHrAJz@Ll@\\jAr@tAz@lAf@h@r@l@z@h@rHfEIZjHxD@A`@TRP|BrAjCxA_CvEqB~CI\\iApBWPeAdBh@ZQFMRnP|I|CnBX\\Nb@?r@Kb@wBvDEFUd@KGmAlCSx@An@o@xBe@pAi@nAc@t@Y`@MAORSn@ILEEgBvCKX}@zAB@Wd@@@_@t@OHS`@]\\CA]XAC@Ah@p@DETVZREZh@jKDTE`@A?OzAKCKjAG^BHPBTAKAJ@U@kBS[Ii@EYDGE_BIm@Ia@McAUu@CuADiBSkAU_@a@IJ_@SYGe@[OEc@USWkAi@EEABaFaC?CGCA@_Ag@aAg@YQ@AqAo@K?aD_BOQy@e@ABi@Y?AkCsAy@[?BmHmDJCYKEDq@]DEGCCBuAs@MIGKo@_@UKs@a@KE{A{@C@WO@AsBcAg@]SIo@KMM{@e@UEuCsAiAk@i@a@{@c@QXEACD[QDGqA{@Rs@IUMI?QGa@CG?WjAY^OV_@FCDOXMHKGEc@YHQUKHS?CXBXi@TJXk@\\Nd@y@|CKFEDTJ?lAsALS?SAExBuClCgDHFJw@AY@e@FK@qA@SAKDsABE@qAD}ABIAc@FeC@m@D_@X@@IF?@m@D?Ia@bABZIRSJWDYX?Db@\\rACpAm@nAA_@tAe@fAQfAAfA@b@FfAZbAb@RHJy@GSTs@ZyAxB?@ArCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2725883999999998,
+                "longitude": 103.8435183
+              },
+              "high": {
+                "latitude": 1.2941736,
+                "longitude": 103.8737774
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "park",
+              "restaurant"
+            ],
+            "predicted_score": 3.059551180236145
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_7",
+          "name": "Via Bay East Garden, Merlion +1 more",
+          "distance": 10343,
+          "duration": "8689s",
+          "waypoints": [
+            {
+              "place_id": "ChIJnV5WzKwZ2jERJ8cM9ja9u_M",
+              "name": "Bay East Garden",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2881607,
+                "lng": 103.869858,
+                "name": "Bay East Garden"
+              },
+              "rating": 4.6,
+              "distance_km": 1.15
+            },
+            {
+              "place_id": "ChIJ29omWQgZ2jEROEz2yZFzQp8",
+              "name": "Merlion",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2867891999999999,
+                "lng": 103.85450139999999,
+                "name": "Merlion"
+              },
+              "rating": 4.7,
+              "distance_km": 0.79
+            },
+            {
+              "place_id": "ChIJt810vrEZ2jERRBeXJJ91Adw",
+              "name": "PARKROYAL on Beach Road",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.3000319999999999,
+                "lng": 103.8605722,
+                "name": "PARKROYAL on Beach Road"
+              },
+              "rating": 4.4,
+              "distance_km": 1.85
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAPa@Be@Eu@By@Ry@`@s@TWd@]\\o@?}@Lg@Ze@r@u@R_@Jc@@WTw@tAkCdBkCjBiCtAgBpAoALM`B}@v@M\\?W{@Ws@wImMvIlMb@jAJb@]?w@LaB|@i@d@eAlAeApAsDhF{AlC]t@Op@APKb@S^eAjAMXKh@@p@]n@e@\\UVa@r@Sx@Cx@D`ACXQ`@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAETJPAp@tCFK|EAjBRFTR|@`@dAVz@HnA?~AQj@Ak@@_BPoA?WAAJiHu@i@QyCi@m@[SGMI_@JcAUmArAK?EUMFcABsADe@x@g@WSKS?gAMSHA?[ZMCa@SA@Zs@oEyByEoC@SSBAJMIBAo@WVCw@c@OEiBuA{A_BUYo@q@KADE[_@IF_BaBUGo@q@KYmAmAcBwB{@sAz@rAZd@j@n@t@|@r@p@JXn@p@TF~A`BHG\\^`@g@LMNWfFqFNUd@G`@FdEnBJURORAXETAD@PJNWdCcFFIEUf@Y^Kv@GtACZ@VHp@AZOR?@k@S?@CfZc@tLFZB?DtCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2803023,
+                "longitude": 103.8542973
+              },
+              "high": {
+                "latitude": 1.300362,
+                "longitude": 103.873728
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "park",
+              "restaurant"
+            ],
+            "predicted_score": 2.782987731246988
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_11",
+          "name": "Via Bay East Garden, Sky Garden at CapitaSpring +1 more",
+          "distance": 9696,
+          "duration": "8038s",
+          "waypoints": [
+            {
+              "place_id": "ChIJnV5WzKwZ2jERJ8cM9ja9u_M",
+              "name": "Bay East Garden",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2881607,
+                "lng": 103.869858,
+                "name": "Bay East Garden"
+              },
+              "rating": 4.6,
+              "distance_km": 1.15
+            },
+            {
+              "place_id": "ChIJlU3yPoUZ2jERY0LQdNA4KPo",
+              "name": "Sky Garden at CapitaSpring",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2838604999999998,
+                "lng": 103.8500779,
+                "name": "Sky Garden at CapitaSpring"
+              },
+              "rating": 4.5,
+              "distance_km": 1.18
+            },
+            {
+              "place_id": "ChIJVSYjJKIZ2jERpRFinATD52s",
+              "name": "Fort Canning Park",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2943875999999999,
+                "lng": 103.8458033,
+                "name": "Fort Canning Park"
+              },
+              "rating": 4.6,
+              "distance_km": 2.06
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAPa@Be@Eu@By@Ry@`@s@TWd@]\\o@?}@Lg@Ze@r@u@R_@Jc@@WTw@tAkCdBkCjBiCtAgBpAoALM`B}@v@M\\?W{@Ws@wImMvIlM`@CP?XF^R\\VXl@Hf@BVFJZTi@hAm@`ARZ?EJ^e@~@Yp@_AtC]vBI|@A`BHrAJz@Ll@\\jAr@tAz@lAf@h@XVQd@EFxA~@|BlAlIxE`Bz@LRAPK\\iAvBcA`BQb@?BJDMNeEvHEC_@r@HDcClEMEg@|@RJS?_BpCI`@_CjEqBhDm@nAOGyB|D[TaAtBBB_@j@JFADb@TWf@m@n@EDXPYVIGBHAb@BJCfBAHYRB?Se@GBHu@BmBKAADq@t@_@F{AC?JFb@CJCh@YLC?Y?QGu@CQDm@AcAESEKd@G`@o@lAW?W@iDhB}A`@g@FcB?w@FYLq@]DEGCCBuAs@MIGKo@_@UKs@a@KE{A{@C@WO@AAAS`@EC_CdDEV]OM\\DHA@A?OZTFABSKN[@?@CEIL[\\NDW~BeDDBRa@@@A@VPtAqBn@u@Ze@X[@KXe@JM\\Ap@gAFKF_@JATYFQRA?GbAMHCd@i@GG~AuBNGATLHFARMNQl@a@NQh@JH_AB@BGbEfAl@PpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2761837,
+                "longitude": 103.8487416
+              },
+              "high": {
+                "latitude": 1.2913005,
+                "longitude": 103.873728
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "park"
+            ],
+            "predicted_score": 2.6130207473835183
+          },
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "theme_2",
+      "ThemeName": "Park & Nature",
+      "Routes": [
+        {
+          "id": "route_2",
+          "name": "Via Bay East Garden, Cloud Forest +1 more",
+          "distance": 9551,
+          "duration": "8033s",
+          "waypoints": [
+            {
+              "place_id": "ChIJnV5WzKwZ2jERJ8cM9ja9u_M",
+              "name": "Bay East Garden",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2881607,
+                "lng": 103.869858,
+                "name": "Bay East Garden"
+              },
+              "rating": 4.6,
+              "distance_km": 1.15
+            },
+            {
+              "place_id": "ChIJd0VihwEZ2jERKeREhO6G1Qg",
+              "name": "Cloud Forest",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2838676999999998,
+                "lng": 103.8660024,
+                "name": "Cloud Forest"
+              },
+              "rating": 4.8,
+              "distance_km": 0.59
+            },
+            {
+              "place_id": "ChIJb6xq2bAZ2jERE1P6sVKtofw",
+              "name": "Sultan Mosque",
+              "category": "attraction",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.3022854,
+                "lng": 103.8589636,
+                "name": "Sultan Mosque"
+              },
+              "rating": 4.7,
+              "distance_km": 2.11
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAPa@Be@Eu@By@Ry@`@s@TWd@]\\o@?}@Lg@Ze@r@u@R_@Jc@@WTw@tAkCdBkCjBiCtAgBpAoALM`B}@v@M\\?W{@Ws@wImMvIlM`@CP?XF^R\\VXl@Hf@BVFJZTi@hAm@`APXk@fAA`@aAhCS~@QHWvAI`AAdBHlAJXB\\F^I@DRESURk@HACM@cBPo@BO@?DO?o@JgAV}@MyAXNz@Oh@MLSJi@AG@ILK^yAbBgA`@cBXI@y@nAS|@MjAg@hCOZAp@Gj@xB??I}HGoDAmYd@@@P?Aj@S?[Nq@@WIw@AuAFg@Fo@XMFUZTBmCpFGHQKMA[BOFOASNKTeEoBa@Ge@F_@d@wE`FOV]\\Y\\A?i@`@iGjFa@]C@{@s@IS_@[SIy@u@SKy@s@@A]]ABiAcAAEa@]BAUKA@k@Sj@R@ATJC@`@\\@DhAbA@C\\\\A@x@r@RJx@t@r@d@HRz@r@BA`@\\hGkFh@a@@?v@{@NWfFqFNUd@G`@FdEnBJURORAXETAD@PJNWdCcFFIEUf@Y^Kv@GtACZ@VHp@AZOR?@k@S?@CfZc@tLFZB?DtCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2794645,
+                "longitude": 103.8565991
+              },
+              "high": {
+                "latitude": 1.3021744,
+                "longitude": 103.873728
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "park",
+              "attraction"
+            ],
+            "predicted_score": 2.6126741833167126
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_5",
+          "name": "Via Supertree Grove, Tian Tian Hainanese Chicken Rice +1 more",
+          "distance": 7984,
+          "duration": "6703s",
+          "waypoints": [
+            {
+              "place_id": "ChIJT4lHCgMZ2jERloDE6WmkdMk",
+              "name": "Supertree Grove",
+              "category": "park",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.2819616999999999,
+                "lng": 103.86390569999999,
+                "name": "Supertree Grove"
+              },
+              "rating": 4.7,
+              "distance_km": 0.39
+            },
+            {
+              "place_id": "ChIJ2ZDgUg0Z2jERXUJpEsR0Oto",
+              "name": "Tian Tian Hainanese Chicken Rice",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2804528,
+                "lng": 103.8447987,
+                "name": "Tian Tian Hainanese Chicken Rice"
+              },
+              "rating": 3.9,
+              "distance_km": 1.8
+            },
+            {
+              "place_id": "ChIJBTYg1g4Z2jERp_MBbu5erWY",
+              "name": "Merlion Park",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2867449,
+                "lng": 103.85438719999999,
+                "name": "Merlion Park"
+              },
+              "rating": 4.6,
+              "distance_km": 0.79
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@|AkBL_@BEVAX@RKLMx@|@ZATJ^JNCJFRP^BDCJn@NEX@NBHNFRANAHb@CHBDD?LTNHHL?|@jAj@`A@b@DXE\\NHVnBZH^B`@NrAx@CLHPJHxAPNFr@vALBr@HPVZ^LB^Bh@KF?z@f@Ne@TOVERFMNeEvHEC_@r@HDcClEMEg@|@RJS?_BpCI`@_CjEqBhDg@dAg@x@GVGJRLDGBPORSRs@tAFFa@t@KTANFZ@RRTx@l@JJ|At@?BJDYn@\\Ni@lAU`@Qj@DBcAvB@@uBfEA?INo@nAGP\\PBDvE`Ca@v@l@XL@x@\\@RADRDDBJ@ZLEPBXs@`@b@Zp@z@PAYHXz@LNS[So@XIQ@q@{@c@[r@a@CYDQ[MMCKE]IOOWGEGAKKKg@S`@w@y@a@Fe@AW`@o@c@SkCwAEFc@SBGwEiC[g@YKSSc@`@c@[JIYIU?uCi@QMUMJOPaAHgAH_B@WR?A_@Qk@Ge@q@eB?IGEUCReAWCAKBcAqBm@m@MH_AB@BGu@Mk@GAEUEIu@?IH?I?Bf@DVTD@D`AJd@JvEpARDpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2769913,
+                "longitude": 103.8450712
+              },
+              "high": {
+                "latitude": 1.2868344,
+                "longitude": 103.8648764
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "restaurant",
+              "park",
+              "attraction"
+            ],
+            "predicted_score": 2.2671086329600816
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_9",
+          "name": "Via Cloud Forest, JUMBO Seafood - The Riverwalk +1 more",
+          "distance": 9465,
+          "duration": "7924s",
+          "waypoints": [
+            {
+              "place_id": "ChIJd0VihwEZ2jERKeREhO6G1Qg",
+              "name": "Cloud Forest",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2838676999999998,
+                "lng": 103.8660024,
+                "name": "Cloud Forest"
+              },
+              "rating": 4.8,
+              "distance_km": 0.59
+            },
+            {
+              "place_id": "ChIJw51YdBIZ2jERoa5GzNLFYvk",
+              "name": "JUMBO Seafood - The Riverwalk",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2893135,
+                "lng": 103.84829479999999,
+                "name": "JUMBO Seafood - The Riverwalk"
+              },
+              "rating": 4.7,
+              "distance_km": 1.53
+            },
+            {
+              "place_id": "ChIJUc0YwKIZ2jERnCfsCKnOamE",
+              "name": "Fort Canning Tree Tunnel",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2972839999999999,
+                "lng": 103.846345,
+                "name": "Fort Canning Tree Tunnel"
+              },
+              "rating": 4.3,
+              "distance_km": 2.22
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@|AkBL_@BEVAX@RKLMNi@O{@xAY|@LfAWn@KN??Ep@EpBOLC@Bj@ITSDRFXR`@Xv@Rd@~@tAx@~@RNKPhBlA|BlAlIxE`Bz@LRAPK\\iAvBcA`BQb@?BJDMNeEvHEC_@r@HDcClEMEg@|@RJS?_BpCI`@_CjEqBhDm@nAOGyB|D[TaAtBBB_@j@JFADb@TWf@m@n@EDXPYVIGBHAb@BJCfB?H[R@@iClAo@^_At@c@[JIYIU?uCi@QMUMc@|@W?W@iDhB}A`@g@FcB?w@FYLa@UOXmAxAQXKHKNCFc@f@CJ{BcBs@m@CJKUe@]u@a@mBu@M\\DHA@A?OZRJa@z@MBBFIDDFEH@NI?OXITKAEDO?[DSHGBBHGDMZi@Qe@GY?}Cb@k@RKHwC`AOb@QZSFqARw@F{Al@w@ROEKBm@[MJO?eBOID?F@IFCXBA?P@Jw@n@uBVc@d@_@\\QD?@@FCEg@R]\\YXMFKh@Ix@@x@JjANR?pBWP[hAg@d@GFARC|@k@@CAKJOZ{@HQEA\\y@HBABXFBG`@TdFrBDW~BeDDBRa@@@A@VPtAqBn@u@Ze@X[@KXe@JM\\Ap@gAFKF_@JATYFQRA?GbAMHCd@i@GG~AuBNGATLHFARMNQl@a@NQh@JH_AB@BGbEfAl@PpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2761837,
+                "longitude": 103.84623889999999
+              },
+              "high": {
+                "latitude": 1.2973225,
+                "longitude": 103.86591759999999
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "restaurant",
+              "park"
+            ],
+            "predicted_score": 2.584062902326567
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_12",
+          "name": "Via The Meadow & Fort Canning Tree Tunnel",
+          "distance": 8874,
+          "duration": "7435s",
+          "waypoints": [
+            {
+              "place_id": "ChIJx6qbqhwZ2jERHfCgkxE1ZzY",
+              "name": "The Meadow",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2795296,
+                "lng": 103.8622402,
+                "name": "The Meadow"
+              },
+              "rating": 4.6,
+              "distance_km": 0.46
+            },
+            {
+              "place_id": "ChIJUc0YwKIZ2jERnCfsCKnOamE",
+              "name": "Fort Canning Tree Tunnel",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2972839999999999,
+                "lng": 103.846345,
+                "name": "Fort Canning Tree Tunnel"
+              },
+              "rating": 4.3,
+              "distance_km": 2.22
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCTCJGN[@Qb@PPLVJRNv@^RLxCxAhGjDd@D|Az@^s@DBdEwHLOSG[FQLOd@{@g@E?e@aAIg@CeCGi@Ss@IG[]ICW@SIqA@SiAMOQCW?o@F|@IVBLHFNN`ApAARHVAHBZ\\HFTx@DbABdBHf@d@`AJBt@b@Ne@TOVERFMNeEvHEC_@r@HDcClEMEg@|@RJS?_BpCI`@_CjEqBhDm@nAOGyB|D[T_CeAiBI{AOSDMHGLENIDO?sA[GEAg@yBQmCu@{Aa@CFC?I|@i@KYXc@XOPWLOCAC@UQH}ArBFF]`@DDULe@Hs@DGPUXSJG`@q@fA]@QVSZEPYXW`@kAxAu@hADBW`@e@W}BbDEV]OM\\DHA@A?OZRJa@z@MBBFIDDFEH@NI?OXITKAEDO?[DSHGBBHGDMZi@Qe@GY?}Cb@k@RKHwC`AOb@QZSFqARw@F{Al@w@ROEKBm@[MJO?eBOID?F@IFCXBA?P@Jw@n@uBVc@d@_@\\QD?@@FCEg@R]\\YXMFKh@Ix@@x@JjANR?pBWP[hAg@d@GFARC|@k@@CAKJOZ{@HQEA\\y@HBABXFBG`@TdFrBDW~BeDDBRa@@@A@VPtAqBn@u@Ze@X[@KXe@JM\\Ap@gAFKF_@JATYFQRA?GbAMHCd@i@GG~AuBNGATLHFARMNQl@a@NQh@JH_AB@BGbEfAl@PpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2769913,
+                "longitude": 103.84623889999999
+              },
+              "high": {
+                "latitude": 1.2973225,
+                "longitude": 103.862629
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "park"
+            ],
+            "predicted_score": 2.455301387793238
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_13",
+          "name": "Via Garden by the Bay - Bay East & JUMBO Seafood - The Riverwalk",
+          "distance": 9001,
+          "duration": "7413s",
+          "waypoints": [
+            {
+              "place_id": "ChIJE6uwTPsZ2jERZFH4XI60LHw",
+              "name": "Garden by the Bay - Bay East",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2823935,
+                "lng": 103.87385959999999,
+                "name": "Garden by the Bay - Bay East"
+              },
+              "rating": 4.7,
+              "distance_km": 1.47
+            },
+            {
+              "place_id": "ChIJw51YdBIZ2jERoa5GzNLFYvk",
+              "name": "JUMBO Seafood - The Riverwalk",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2893135,
+                "lng": 103.84829479999999,
+                "name": "JUMBO Seafood - The Riverwalk"
+              },
+              "rating": 4.7,
+              "distance_km": 1.53
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAPa@Be@Eu@By@Ry@`@s@TWd@]\\o@?}@Lg@Ze@r@u@R_@Jc@@WTw@tAkCdBkCjBiCtAgBpAoALM`B}@v@M\\?W{@Ws@_JwMA@@A~IvMb@jAJb@]?w@LaB|@i@d@eAlAeApAsDhF{AlC]t@Op@APKb@S^eAjAMXKh@@p@]n@e@\\UVa@r@Sx@Cx@D`ACXQ`@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAETJPAp@tCFK|E?|BBf@CpARhBJNfDzAC~@EPUt@S@GPUXSJG`@q@fA]@QVSZEPYXW`@_AhAl@`@FNLr@IVS\\r@`@S\\h@Rd@^FHrB`AmAxAQXKHPO`@o@v@}@NY`@TXMv@GjBAv@MdAYhDiBVAN@FAb@}@TLPLtCh@T?XHKHb@Zb@a@jAs@hCmABETO@uA@[CKBs@EDHFXWYQRS^a@Vg@c@U@EKG^k@CC`AuBZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2799578999999999,
+                "longitude": 103.84816049999999
+              },
+              "high": {
+                "latitude": 1.2897376,
+                "longitude": 103.8737774
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "park",
+              "restaurant"
+            ],
+            "predicted_score": 2.448538138089425
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_14",
+          "name": "Via Cloud Forest & Jubilee Park",
+          "distance": 8737,
+          "duration": "7348s",
+          "waypoints": [
+            {
+              "place_id": "ChIJd0VihwEZ2jERKeREhO6G1Qg",
+              "name": "Cloud Forest",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2838676999999998,
+                "lng": 103.8660024,
+                "name": "Cloud Forest"
+              },
+              "rating": 4.8,
+              "distance_km": 0.59
+            },
+            {
+              "place_id": "ChIJPV8Z1JwZ2jERKuFD4uIVgOM",
+              "name": "Jubilee Park",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2937577,
+                "lng": 103.8449279,
+                "name": "Jubilee Park"
+              },
+              "rating": 4.7,
+              "distance_km": 2.1
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@|AkBL_@BEVAX@RKLMNi@O{@xAY|@LfAWn@KN??Ep@EpBOLC@Bj@ITSDRFXR`@Xv@Rd@~@tAx@~@RNKPhBlA|BlAlIxE`Bz@LRAPK\\iAvBcA`BQb@?BJDMNeEvHEC_@r@HDcClEMEg@|@RJS?_BpCI`@_CjEqBhDm@nAOGyB|D[T_CeAiBI{AOUF@Je@jBGDk@Kk@GUE[QaB_@UBGDWFg@EYFWJDJiAb@S?CNwB`A^l@L`@?XM^GNy@p@oBzAG?kCzAsBvAG?QKGDaAdBc@x@g@x@?J]n@?Jg@tCIC[x@Q^I\\EFSFFDHI@@IJq@a@YEQJQT[TiAd@m@Ti@d@m@XuAtAk@d@iBl@[bADRDL]@IBZGJ@K_@@IX{@jBm@j@e@xA{Af@Sn@i@fBq@LGb@a@NOFCXDp@`@HKE?EFGERGDGH]\\u@Nc@HBf@uC@OZm@?If@y@~@eBj@_AF@LJNGhBqAjC{AHAlByAx@q@Na@DM?YMa@_@m@vBaABOR?nBu@PAVBEXTDJq@RIT@tA\\^R^F`@Bh@HDEd@iBAKTGzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2761837,
+                "longitude": 103.84486489999999
+              },
+              "high": {
+                "latitude": 1.2937325,
+                "longitude": 103.86591759999999
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature"
+            ],
+            "predicted_score": 2.4329329434957283
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_15",
+          "name": "Via Flower Dome & Fort Canning Tree Tunnel",
+          "distance": 8256,
+          "duration": "6908s",
+          "waypoints": [
+            {
+              "place_id": "ChIJPYrvewEZ2jERK-pztVWcDig",
+              "name": "Flower Dome",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2846292,
+                "lng": 103.86469749999999,
+                "name": "Flower Dome"
+              },
+              "rating": 4.7,
+              "distance_km": 0.46
+            },
+            {
+              "place_id": "ChIJUc0YwKIZ2jERnCfsCKnOamE",
+              "name": "Fort Canning Tree Tunnel",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2972839999999999,
+                "lng": 103.846345,
+                "name": "Fort Canning Tree Tunnel"
+              },
+              "rating": 4.3,
+              "distance_km": 2.22
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@pA}AKo@@SDEW]ISNZPTGHB^F^qA|AgA`@cBXI@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAG\\K\\Yf@cAfA{BxCFXBT_@J_@n@_@p@IJWAQHGH^r@ELw@Y_@S{A~A]j@DFSPCG_@v@GZSb@mAvBSb@MHJFQXEAe@v@QRm@dAA?y@bBDB[v@GCmAdCMJMKYI}A_AYDOLmAxAsAz@URaAn@Qh@UjBQ`AO`B?z@EHVV^PWh@Ip@LA@IFCXBA?P@Jw@n@uBVc@d@_@\\QD?@@FCEg@R]\\YXMFKh@Ix@@x@JjANR?pBWP[hAg@d@GFARC|@k@@CAKJOZ{@HQEA\\y@HBABXFBG`@TdFrBDW~BeDDBRa@@@A@VPtAqBn@u@Ze@X[@KXe@JM\\Ap@gAFKF_@JATYFQRA?GbAMHCd@i@GG~AuBNGATLHFARMNQl@a@NQh@JH_AB@BGbEfAl@PpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2799578999999999,
+                "longitude": 103.84632839999999
+              },
+              "high": {
+                "latitude": 1.2974968,
+                "longitude": 103.8651082
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "park"
+            ],
+            "predicted_score": 2.318354366613736
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_17",
+          "name": "Via Cloud Forest, Fort Canning Tree Tunnel +1 more",
+          "distance": 9151,
+          "duration": "7748s",
+          "waypoints": [
+            {
+              "place_id": "ChIJd0VihwEZ2jERKeREhO6G1Qg",
+              "name": "Cloud Forest",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2838676999999998,
+                "lng": 103.8660024,
+                "name": "Cloud Forest"
+              },
+              "rating": 4.8,
+              "distance_km": 0.59
+            },
+            {
+              "place_id": "ChIJUc0YwKIZ2jERnCfsCKnOamE",
+              "name": "Fort Canning Tree Tunnel",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2972839999999999,
+                "lng": 103.846345,
+                "name": "Fort Canning Tree Tunnel"
+              },
+              "rating": 4.3,
+              "distance_km": 2.22
+            },
+            {
+              "place_id": "ChIJ-Uph06UZ2jERjKQsyQgfltg",
+              "name": "Fairmont Singapore",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2942639,
+                "lng": 103.8537619,
+                "name": "Fairmont Singapore"
+              },
+              "rating": 4.5,
+              "distance_km": 1.43
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@|AkBL_@BEVAX@RKLMNi@O{@xAY|@LfAWn@KN??Ep@EpBOLC@Bj@ITSDRESURk@HACM@cBPo@BO@?DO?o@JgAV}@MyAXNz@Oh@MLSJi@AG@ILK^yAbBgA`@cBXI@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAG\\K\\Yf@cAfA{BxCFXBT_@J_@n@_@p@IJWAQHGH^r@ELw@Y_@S{A~A]j@DFSPCG_@v@GZSb@mAvBSb@MHJFQXEAe@v@QRm@dAA?y@bBDB[v@GCmAdCMJMKYI}A_AYDOLmAxAsAz@URaAn@Qh@UjBQ`AO`B?z@EHVV^PWh@Ip@LAM@Ho@BKKCPc@YQOSSABcAHcA?WJu@LULiACSDEDPDU?MIJWWJMe@g@ISIIMCe@]IHYSFMAAHIDDJOM??IX?jA_BN_@@BNSCAlBeCtBoC@Br@}@@DNZvCqEFD`@i@IE|A{BRTL?JG?@bAIh@aAJDHMf@BXi@TJXk@\\Nd@y@|CKFEDTJ?lAsALS?SAExBuClCgDHFJw@AY@e@FK@qA@SAKDsABE@qAD}ABIAc@FeC@m@D_@X@@IF?@m@D?Ia@bABZIRSJWDYX?Db@\\rACpAm@nAA_@tAe@fAQfAAfA@b@FfAZbAb@RHJy@GSTs@ZyAxB?@ArCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2805893,
+                "longitude": 103.84632839999999
+              },
+              "high": {
+                "latitude": 1.298104,
+                "longitude": 103.86591759999999
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "restaurant"
+            ],
+            "predicted_score": 2.539064132391652
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_19",
+          "name": "Via Garden by the Bay - Bay East, Lau Pa Sat +1 more",
+          "distance": 8100,
+          "duration": "6732s",
+          "waypoints": [
+            {
+              "place_id": "ChIJE6uwTPsZ2jERZFH4XI60LHw",
+              "name": "Garden by the Bay - Bay East",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2823935,
+                "lng": 103.87385959999999,
+                "name": "Garden by the Bay - Bay East"
+              },
+              "rating": 4.7,
+              "distance_km": 1.47
+            },
+            {
+              "place_id": "ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0",
+              "name": "Lau Pa Sat",
+              "category": "restaurant",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.2805121,
+                "lng": 103.8503809,
+                "name": "Lau Pa Sat"
+              },
+              "rating": 4.4,
+              "distance_km": 1.19
+            },
+            {
+              "place_id": "ChIJlU3yPoUZ2jERY0LQdNA4KPo",
+              "name": "Sky Garden at CapitaSpring",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2838604999999998,
+                "lng": 103.8500779,
+                "name": "Sky Garden at CapitaSpring"
+              },
+              "rating": 4.5,
+              "distance_km": 1.18
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAPa@Be@Eu@By@Ry@`@s@TWd@]\\o@?}@Lg@Ze@r@u@R_@Jc@@WTw@tAkCdBkCjBiCtAgBpAoALM`B}@v@M\\?W{@Ws@_JwMA@@A~IvM`@CP?XF^R\\VXl@Hf@BVFJZTi@hAm@`APXk@fAA`@aAhCS~@QHWvAI`AAdBHlAJXB\\F^I@Ll@R`@Xv@Rd@~@tAx@~@vBxAlHbEINHDHMjHxD@A`@TRP|BrAjCxADGb@T}BpEeBnCOZa@RqBtDGd@S^_@Z@@MRJDgCjECCMTGCINFDKTQTyBxDWj@QLBBKNAAqA|BuAdC@?OZq@jA_@TMRJFGLMICFEd@}@|Aq@x@s@t@IB[QEBGCYl@\\N]v@c@|@Od@AAABUm@CBWK]Ec@?QFM@UBi@BSDIGKCSD[RB?Se@GBHu@BmBKAADq@t@_@F{AC?JFb@CJCh@YLC?LCPI@i@DWIW?KzABb@IPULKLQ@EJ@EzBGf@FCRd@C?ZS@uA@[CKBs@EDHFXWYQRS^a@Vg@c@U@EKG^k@CC`AuBZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2741343,
+                "longitude": 103.850113
+              },
+              "high": {
+                "latitude": 1.2859732,
+                "longitude": 103.8737774
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "attraction"
+            ],
+            "predicted_score": 2.274083170772592
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_20",
+          "name": "Via Flower Dome, Paradox Singapore +1 more",
+          "distance": 7928,
+          "duration": "6578s",
+          "waypoints": [
+            {
+              "place_id": "ChIJPYrvewEZ2jERK-pztVWcDig",
+              "name": "Flower Dome",
+              "category": "park",
+              "search_category": "nature",
+              "location": {
+                "lat": 1.2846292,
+                "lng": 103.86469749999999,
+                "name": "Flower Dome"
+              },
+              "rating": 4.7,
+              "distance_km": 0.46
+            },
+            {
+              "place_id": "ChIJjS4cuwoZ2jERCTeN-k9LUIE",
+              "name": "Paradox Singapore",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2884308,
+                "lng": 103.8458053,
+                "name": "Paradox Singapore"
+              },
+              "rating": 4.4,
+              "distance_km": 1.75
+            },
+            {
+              "place_id": "ChIJBTYg1g4Z2jERp_MBbu5erWY",
+              "name": "Merlion Park",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2867449,
+                "lng": 103.85438719999999,
+                "name": "Merlion Park"
+              },
+              "rating": 4.6,
+              "distance_km": 0.79
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@pA}AKo@@SDEW]ISNZPTGHB^F^qA|AgA`@cBXI@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAETJPAp@tCFK|E?|BBf@CpARhBJNfDzAC~@EPUt@S@GPUXSJG`@q@fA]@QVSZEPYXW`@_AhAl@`@FNLr@IVS\\r@`@S\\h@Rd@^FH_@j@CJkA~C[xANPMj@F@El@Fb@RE|Ad@Gr@^t@X]J?J@PLDTJNCTEDFK@SKKEUQMUAGDSV_@u@Fs@}Ae@SDGc@Dm@GALk@OSZwAlAcDBK\\g@[UWUc@QR]s@a@Xg@BMOy@KOg@[~@iAZe@X[@KXe@JM\\Ap@gAFKF_@JATYFQRA?GbAMHCd@i@GG~AuBDAtA_AqAMl@_A?KS}@b@?I?Bf@DVTD@D`AJd@JvEpARDpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2799578999999999,
+                "longitude": 103.8459056
+              },
+              "high": {
+                "latitude": 1.2897376,
+                "longitude": 103.8651082
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "nature",
+              "restaurant",
+              "park"
+            ],
+            "predicted_score": 2.234005662383511
+          },
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "theme_3",
+      "ThemeName": "Restaurant",
+      "Routes": [
+        {
+          "id": "route_3",
+          "name": "Via Chinatown Complex, Spectra - A Light & Water Show +1 more",
+          "distance": 9573,
+          "duration": "8001s",
+          "waypoints": [
+            {
+              "place_id": "ChIJAenlH3MZ2jERqjoWXlxEH6w",
+              "name": "Chinatown Complex",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2819186999999999,
+                "lng": 103.84334469999999,
+                "name": "Chinatown Complex"
+              },
+              "rating": 4.2,
+              "distance_km": 1.94
+            },
+            {
+              "place_id": "ChIJJx8l4dkZ2jER4d43CclDwfs",
+              "name": "Spectra - A Light & Water Show",
+              "category": "attraction",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.2844216,
+                "lng": 103.8582926,
+                "name": "Spectra - A Light & Water Show"
+              },
+              "rating": 4.7,
+              "distance_km": 0.29
+            },
+            {
+              "place_id": "ChIJP1jDgAoZ2jER9XCcxNoXvcc",
+              "name": "Song Fa Bak Kut Teh 11 New Bridge Road",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2890099,
+                "lng": 103.84769829999999,
+                "name": "Song Fa Bak Kut Teh 11 New Bridge Road"
+              },
+              "rating": 4.4,
+              "distance_km": 1.57
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TVLG`@DNTH[d@BBBGVN?ChFzCZZT?tHdE|@f@g@|@RJS?_BpCI`@_CjEqBhDg@dAg@x@GVGJRLDGBPORSRs@tAFFa@t@KTANFZ@RRTx@l@JJ|At@?BJDYn@\\Ni@lAU`@Qj@DBcAvB@@uBfEA?INo@nAGRsAvCGDJ^VTd@`BNn@NRbDrBHBGZ[n@`Ab@QZBBYh@wA|C`@PAHe@d@?BBBH@BCCBIACC?Cd@g@@Ga@QvA}CZi@iAi@ACh@kADYcDsBOSu@qCWUK_@JKxAeDl@oAHO@?`BiDk@WoAq@y@i@_@SSYFMZS@uA@[CKBs@EDHFXWYQRS^a@Vg@c@U@EKG^k@CC`AuBZUxB}DdAgB?KjDeGwJyFk@YWAS?iBiBsAeAiAs@uCoAtCnAhAr@rAdAhBhB^?J@j@XvJxFkDdG?JoCtEo@nA[TaAtBBB_@j@JFADb@TWf@m@n@EDXPYVIGBHAb@BJCfB?H[R@@iClAo@^_At@c@[JIYIU?uCi@QMUMc@|@W?W@iDhB}A`@g@FcB?w@FYLGEMV{AlBa@FEFC`@[^OFKKJSNQ^WDGXq@fAqANY`@TXMv@GjBAv@MdAYhDiBVAN@FAb@}@TLPLtCh@T?XHKHb@Zb@a@jAs@hCmABETO@uA@[CKBs@EDHFXWYQRS^a@Vg@c@U@EKG^k@CC`AuBZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2789180999999998,
+                "longitude": 103.8433187
+              },
+              "high": {
+                "latitude": 1.289188,
+                "longitude": 103.8605552
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "restaurant",
+              "attraction"
+            ],
+            "predicted_score": 2.6039510106494514
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_4",
+          "name": "Via Maxwell Food Centre & Kwan Im Thong Hood Cho Temple",
+          "distance": 8282,
+          "duration": "7015s",
+          "waypoints": [
+            {
+              "place_id": "ChIJseQsTQ0Z2jERqpBTWF0Zf84",
+              "name": "Maxwell Food Centre",
+              "category": "restaurant",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.2803361,
+                "lng": 103.844767,
+                "name": "Maxwell Food Centre"
+              },
+              "rating": 4.4,
+              "distance_km": 1.8
+            },
+            {
+              "place_id": "ChIJSXU0BrsZ2jER4HhOboVXKJ0",
+              "name": "Kwan Im Thong Hood Cho Temple",
+              "category": "attraction",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.3008575999999998,
+                "lng": 103.8529932,
+                "name": "Kwan Im Thong Hood Cho Temple"
+              },
+              "rating": 4.7,
+              "distance_km": 2.12
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TVLG`@DNTH[d@BBBGVN?ChFzCZZT?tHdE|@f@g@|@RJS?_BpCI`@_CjEqBhDg@dAg@x@GVGJRLDGBPORSRs@tAFFa@t@KTANFZ@RRTx@l@JJ|At@?BJDYn@\\Ni@lAU`@Qj@DBcAvB@@uBfEA?INo@nAGRsAvCGDJ^VTd@`BNn@NRbDrBHBGZ[n@bAd@HFPRb@TXJ`@Xk@_@OEc@USWkAi@EEABaFaC?CGCA@_Ag@aAg@YQ@AqAo@K?aD_BOQy@e@ABi@Y?AkCsAy@[?BmHmDJCYKEDq@]DEGCCBuAs@MIGKo@_@UKs@a@KE{A{@C@WO@AsBcAg@]SIo@KMM{@e@UEuCsAiAk@i@a@{@c@QXEACD[QDGgCaB]OM]iAc@YSEH[SDEo@c@aAs@yHiFEFGT[d@OGWE[KMN[LHP_@d@CCs@t@AAiB|BBBSViB`Ck@e@ABaAy@QFCAi@e@tBoCqB}ALS{BiBQAo@i@|AuAp@a@DBj@q@@@hBcBTWCATSDBfGkFh@a@@?v@{@NWfFqFNUd@G`@FdEnBJURORAXETAD@PJNWdCcFFIEUf@Y^Kv@GtACZ@VHp@AZOR?@k@S?@CfZc@tLFZB?DtCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2789180999999998,
+                "longitude": 103.8444117
+              },
+              "high": {
+                "latitude": 1.3014010999999999,
+                "longitude": 103.86142350000001
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "attraction"
+            ],
+            "predicted_score": 2.346840717056401
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_8",
+          "name": "Via Carlton City Hotel Singapore, Fort Canning Tree Tunnel +1 more",
+          "distance": 9431,
+          "duration": "7998s",
+          "waypoints": [
+            {
+              "place_id": "ChIJW-HHrWwZ2jERC16smRC_0NQ",
+              "name": "Carlton City Hotel Singapore",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2759801,
+                "lng": 103.8436052,
+                "name": "Carlton City Hotel Singapore"
+              },
+              "rating": 4.4,
+              "distance_km": 2.07
+            },
+            {
+              "place_id": "ChIJUc0YwKIZ2jERnCfsCKnOamE",
+              "name": "Fort Canning Tree Tunnel",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2972839999999999,
+                "lng": 103.846345,
+                "name": "Fort Canning Tree Tunnel"
+              },
+              "rating": 4.3,
+              "distance_km": 2.22
+            },
+            {
+              "place_id": "ChIJSeUa7KcZ2jERNVg2CvmlVbk",
+              "name": "Esplanade - Theatres on the Bay, Singapore",
+              "category": "attraction",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.2897934,
+                "lng": 103.8558166,
+                "name": "Esplanade - Theatres on the Bay, Singapore"
+              },
+              "rating": 4.6,
+              "distance_km": 0.89
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TVLG`@DNTH[d@BBBGVN?ChFzCZZT?tHdE|@f@g@|@RJS?_BpCI`@_CjEqBhDg@dAg@x@GVGJRLDGBPORSRs@tAFFa@t@KTANFZ@RRTx@l@JJ|At@?BJDa@|@q@tA\\NEJdCzA@C`IdE@APHABhE|Bb@XxBlAj@f@BCj@n@GDNRVJVXLT\\T\\LLJLRx@l@v@p@d@\\QVCAoAfBUj@WjCUvCAV{AOU@kBS[Ii@EYDGE_BIm@Ia@McAUu@CuADiBSkAU_@a@IJ_@SYGe@[OEc@USWkAi@EEABaFaC?CGCA@_Ag@aAg@YQ@AqAo@K?aD_BOQy@e@ABi@Y?AkCsAy@[?BmHmDJCYKEDq@]DEGCCBuAs@MIGKo@_@UKs@a@KE{A{@C@WO@AAAS`@EC_CdDEV]OM\\DHA@A?OZRJa@z@MBBFIDDFEH@NI?OXITKAEDO?[DSHGBBHGDMZi@Qe@GY?}Cb@k@RKHwC`AOb@QZSFqARw@F{Al@w@ROEKBm@[MJO?eBOID?FM@Ho@BKKCPc@YQOODI?{@PiBVcBTeBNI`Ao@NOrA{@vAeBVGF?|A~@XHLJLKlAeCFBZw@ECx@cB@?l@eAPSd@w@D@PYKGLI\\u@bAeBRc@F[^w@BFRQEG`@q@vAyAt@\\`@NDM_@s@LMLET@R_@Ze@Xg@^KTLTHJFD[n@OR@VNLJ_@YOCYB_@JEYYe@EQEE|AuBn@s@b@i@HQPu@Fo@HyC?WDIHgCAi@DgCF{DRMGKMHBUF?@m@D?Ia@bABZIRSJWDYX?Db@\\rACpAm@nAA_@tAe@fAQfAAfA@b@FfAZbAb@RHJy@GSTs@ZyAxB?@ArCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2749101,
+                "longitude": 103.8434505
+              },
+              "high": {
+                "latitude": 1.2974968,
+                "longitude": 103.8615988
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "restaurant",
+              "park",
+              "attraction"
+            ],
+            "predicted_score": 2.6041196868885095
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_10",
+          "name": "Via Supertree Grove, National Museum of Singapore +1 more",
+          "distance": 9250,
+          "duration": "7907s",
+          "waypoints": [
+            {
+              "place_id": "ChIJT4lHCgMZ2jERloDE6WmkdMk",
+              "name": "Supertree Grove",
+              "category": "park",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.2819616999999999,
+                "lng": 103.86390569999999,
+                "name": "Supertree Grove"
+              },
+              "rating": 4.7,
+              "distance_km": 0.39
+            },
+            {
+              "place_id": "ChIJD1u-EaMZ2jERaLhNfFkR45I",
+              "name": "National Museum of Singapore",
+              "category": "attraction",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.296613,
+                "lng": 103.84850910000002,
+                "name": "National Museum of Singapore"
+              },
+              "rating": 4.6,
+              "distance_km": 2.0
+            },
+            {
+              "place_id": "ChIJt810vrEZ2jERRBeXJJ91Adw",
+              "name": "PARKROYAL on Beach Road",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.3000319999999999,
+                "lng": 103.8605722,
+                "name": "PARKROYAL on Beach Road"
+              },
+              "rating": 4.4,
+              "distance_km": 1.85
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TTL^q@FCVCMOe@a@GMSSa@K_@OYI_@@a@IYEGAMGgAQcAK}COuAIY@_B?HoA@SLUf@iCReBLc@x@oAfAOd@KfAa@|AkBL_@BEVAX@RKLMx@|@ZATJ^JNCJFRP^BDCJn@NEX@NBHNIO_@GQBGBKo@EB_@CSQMGMBm@SGC[@y@}@MLSJi@AG@ILK^yAbBgA`@cBXI@y@nAS|@MjAg@hCOZAp@Kx@[tAQh@FRKx@}Ao@cAYm@IiB?_AJe@HqAb@@^l@qABoA_@{AC[Y?EXKVSRc@H{@CH`@E?Al@G?CTLIFJSLCx@@PIlC@JElB@j@GtBETE~BInAG\\K\\Yf@cAfA{BxCFXBT_@J_@n@_@p@IJWAQHGH^r@ELw@Y_@S{A~A]j@DFSPCG_@v@GZSb@mAvBSb@MHJFQXEAe@v@QRm@dAA?y@bBDB[v@GCmAdCMJ]UcAb@}@Xe@Hi@BKBHJMHEAm@ZAFgAt@KNC@a@YYT?EIJWWJMe@g@ISIIMCe@]IHYSFMWUOIiAaAMGqEoDGJWQJMeBuAIPi@e@BE{@o@CMSEaBsAWQ_FuD{A_Ai@i@CHUU@EFDLUQKLQFQLmADYLi@HeATq@fAoAAANWA?NW@cAD_@Pa@PUl@WHM^QNOXa@DO\\UXUNUBBn@y@JSz@iArAiAh@m@XWBFTMGGPM{@gA{@sAz@rAZd@j@n@t@|@r@p@JXn@p@TF~A`BHG\\^`@g@LMNWfFqFNUd@G`@FdEnBJURORAXETAD@PJNWdCcFFIEUf@Y^Kv@GtACZ@VHp@AZOR?@k@S?@CfZc@tLFZB?DtCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2817573,
+                "longitude": 103.84874409999999
+              },
+              "high": {
+                "latitude": 1.303547,
+                "longitude": 103.8648764
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "restaurant",
+              "attraction"
+            ],
+            "predicted_score": 2.580980968484862
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_16",
+          "name": "Via Amara Singapore, Song Fa Bak Kut Teh 11 New Bridge Road +1 more",
+          "distance": 9361,
+          "duration": "7871s",
+          "waypoints": [
+            {
+              "place_id": "ChIJrXZUXmsZ2jERdZPWv7o3QHA",
+              "name": "Amara Singapore",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2752457,
+                "lng": 103.8434106,
+                "name": "Amara Singapore"
+              },
+              "rating": 4.1,
+              "distance_km": 2.13
+            },
+            {
+              "place_id": "ChIJP1jDgAoZ2jER9XCcxNoXvcc",
+              "name": "Song Fa Bak Kut Teh 11 New Bridge Road",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2890099,
+                "lng": 103.84769829999999,
+                "name": "Song Fa Bak Kut Teh 11 New Bridge Road"
+              },
+              "rating": 4.4,
+              "distance_km": 1.57
+            },
+            {
+              "place_id": "ChIJUc0YwKIZ2jERnCfsCKnOamE",
+              "name": "Fort Canning Tree Tunnel",
+              "category": "park",
+              "search_category": "park",
+              "location": {
+                "lat": 1.2972839999999999,
+                "lng": 103.846345,
+                "name": "Fort Canning Tree Tunnel"
+              },
+              "rating": 4.3,
+              "distance_km": 2.22
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TVLG`@DNTH[d@BBBGVN?ChFzCZZT?tHdE|@f@g@|@RJS?_BpCI`@_CjEqBhDg@dAg@x@GVGJRLDGBPORSRs@tAFFa@t@KTANFZ@RRTx@l@JJ|At@?BJDa@|@q@tA\\NEJdCzA@C`IdE@APHABhE|Bb@XxBlAj@f@BCj@n@GDNRVJVXLT\\T\\LLJLRx@l@v@p@r@f@DJQTDBmA`BQd@]zDEZCAM`B|@LFGBAKD?B}AS@C{AOU@kBS[Ii@EYDGE_BIm@Ia@McAUu@CuADiBSkAU_@a@IJ_@SYGe@[OEc@USWkAi@EEABaFaC?CGCA@_Ag@aAg@YQ@AqAo@K?aD_BOQy@e@ABi@Y?AkCsAy@[?BmHmDJCYKEDGEMV{AlBa@FEFC`@[^OFKK{BcBs@m@CJKUe@]u@a@mBu@M\\DHA@A?OZRJa@z@MBBFIDDFEH@NI?OXITKAEDO?[DSHGBBHGDMZi@Qe@GY?}Cb@k@RKHwC`AOb@QZSFqARw@F{Al@w@ROEKBm@[MJO?eBOID?F@IFCXBA?P@Jw@n@uBVc@d@_@\\QD?@@FCEg@R]\\YXMFKh@Ix@@x@JjANR?pBWP[hAg@d@GFARC|@k@@CAKJOZ{@HQEA\\y@HBABXFBG`@TdFrBDW~BeDDBRa@@@A@VPtAqBn@u@Ze@X[@KXe@JM\\Ap@gAFKF_@JATYFQRA?GbAMHCd@i@GG~AuBNGATLHFARMNQl@a@NQh@JH_AB@BGbEfAl@PpBN@f@JHnAVN?JIBKFMLIREzANhBH~BdAZUxB}DdAgB?KjDeGwJyF_@QbAkBNFn@BxAgCIEb@s@Q@c@_@iF{C?BWOCFCCZe@UIEOFa@WM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2748074,
+                "longitude": 103.84333409999999
+              },
+              "high": {
+                "latitude": 1.2973225,
+                "longitude": 103.8605552
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "restaurant",
+              "park"
+            ],
+            "predicted_score": 2.5705767989419033
+          },
+          "score": 0.8
+        },
+        {
+          "id": "route_18",
+          "name": "Via Carlton City Hotel Singapore & Sultan Mosque",
+          "distance": 9106,
+          "duration": "7693s",
+          "waypoints": [
+            {
+              "place_id": "ChIJW-HHrWwZ2jERC16smRC_0NQ",
+              "name": "Carlton City Hotel Singapore",
+              "category": "restaurant",
+              "search_category": "restaurant",
+              "location": {
+                "lat": 1.2759801,
+                "lng": 103.8436052,
+                "name": "Carlton City Hotel Singapore"
+              },
+              "rating": 4.4,
+              "distance_km": 2.07
+            },
+            {
+              "place_id": "ChIJb6xq2bAZ2jERE1P6sVKtofw",
+              "name": "Sultan Mosque",
+              "category": "attraction",
+              "search_category": "attraction",
+              "location": {
+                "lat": 1.3022854,
+                "lng": 103.8589636,
+                "name": "Sultan Mosque"
+              },
+              "rating": 4.7,
+              "distance_km": 2.11
+            }
+          ],
+          "geometry": {
+            "overview_polyline": {
+              "points": "ssyFog|xRtBdAD?n@TVLG`@DNTH[d@BBBGVN?ChFzCZZT?tHdE|@f@g@|@RJS?_BpCI`@_CjEqBhDg@dAg@x@GVGJRLDGBPORSRs@tAFFa@t@KTANFZ@RRTx@l@JJ|At@?BJDa@|@q@tA\\NEJdCzA@C`IdE@APHABhE|Bb@XxBlAj@f@BCj@n@GDNRVJVXLT\\T\\LLJLRx@l@v@p@d@\\QVCAoAfBUj@WjCUvCAV{AOU@kBS[Ii@EYDGE_BIm@Ia@McAUu@CuADiBSkAU_@a@IJ_@SYGe@[OEc@USWkAi@EEABaFaC?CGCA@_Ag@aAg@YQ@AqAo@K?aD_BOQy@e@ABi@Y?AkCsAy@[?BmHmDJCYKEDq@]DEGCCBuAs@MIGKo@_@UKs@a@KE{A{@C@WO@AsBcAg@]SIo@KMM{@e@UEuCsAiAk@i@a@{@c@QXEACD[QDGgCaB]OM]iAc@YSEH[SDEo@c@aAs@eJkGCDo@c@BCaAo@m@o@g@I]U@QEEm@O{B{Ac@]EDc@[DE}FaFGDa@_@FEkAeA_@]RSAABAUKA@k@Sj@R@ATJC@`@\\@DhAbA@C\\\\A@x@r@RJx@t@r@d@HRz@r@BA`@\\hGkFh@a@@?v@{@NWfFqFNUd@G`@FdEnBJURORAXETAD@PJNWdCcFFIEUf@Y^Kv@GtACZ@VHp@AZOR?@k@S?@CfZc@tLFZB?DtCPlBJdBP^JFDZBTF\\@\\Bd@PPHTDRRFLp@l@@BWBGB_@p@UM{@YoBaA"
+            },
+            "viewport": {
+              "low": {
+                "latitude": 1.2749101,
+                "longitude": 103.8434505
+              },
+              "high": {
+                "latitude": 1.3021744,
+                "longitude": 103.86142350000001
+              }
+            }
+          },
+          "metadata": {
+            "center": [
+              1.2834,
+              103.8607
+            ],
+            "search_radius_km": 2.5,
+            "route_type": "loop",
+            "categories_used": [
+              "restaurant",
+              "attraction"
+            ],
+            "predicted_score": 2.5228287558907914
+          },
+          "score": 0.8
+        }
+      ]
+    }
+  ]
+}

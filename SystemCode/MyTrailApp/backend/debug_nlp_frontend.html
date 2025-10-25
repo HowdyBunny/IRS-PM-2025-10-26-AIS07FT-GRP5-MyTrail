@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTrail NLP API 调试工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .form-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .location-presets {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .preset-btn {
+            padding: 8px 15px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .preset-btn:hover {
+            background: #5a67d8;
+        }
+
+        .example-queries {
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .example-queries h3 {
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .query-example {
+            background: white;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+            border-left: 4px solid #667eea;
+        }
+
+        .query-example:hover {
+            background: #f0f8ff;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+            width: 100%;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .loading {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .results {
+            margin-top: 30px;
+        }
+
+        .route-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            background: #f9f9f9;
+        }
+
+        .route-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .route-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .route-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .stat {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+            border-left: 4px solid #667eea;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .waypoints {
+            margin-top: 15px;
+        }
+
+        .waypoint {
+            background: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border-left: 3px solid #28a745;
+        }
+
+        .parsed-criteria {
+            background: #e8f4fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .parsed-criteria h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .criteria-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .criteria-item {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        .criteria-label {
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .criteria-value {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🤖 MyTrail NLP API 调试工具</h1>
+
+        <div class="form-section">
+            <div class="example-queries">
+                <h3>📝 示例查询</h3>
+                <div class="query-example" onclick="setQuery('我想找一条1小时的环形路线，经过公园和餐厅')">
+                    我想找一条1小时的环形路线，经过公园和餐厅
+                </div>
+                <div class="query-example" onclick="setQuery('帮我规划30分钟的跑步路线，要有自然风景')">
+                    帮我规划30分钟的跑步路线，要有自然风景
+                </div>
+                <div class="query-example" onclick="setQuery('2公里范围内找咖啡厅和景点的往返路线')">
+                    2公里范围内找咖啡厅和景点的往返路线
+                </div>
+                <div class="query-example" onclick="setQuery('45分钟散步路线，经过公园')">
+                    45分钟散步路线，经过公园
+                </div>
+                <div class="query-example" onclick="setQuery('I want a 1 hour loop route with parks and restaurants')">
+                    I want a 1 hour loop route with parks and restaurants
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="query">🗣️ 自然语言查询:</label>
+                <textarea id="query" placeholder="请输入您的路线需求，例如：我想找一条1小时的环形路线，经过公园和餐厅"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="lat">📍 起始位置:</label>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <input type="number" id="lat" step="0.000001" value="1.2834" placeholder="纬度">
+                    <input type="number" id="lng" step="0.000001" value="103.8607" placeholder="经度">
+                </div>
+                <div class="location-presets">
+                    <button type="button" class="preset-btn" onclick="setLocation(1.2834, 103.8607)">Marina Bay
+                        Sands</button>
+                    <button type="button" class="preset-btn" onclick="setLocation(1.2966, 103.7764)">Singapore
+                        City</button>
+                    <button type="button" class="preset-btn" onclick="setLocation(1.3521, 103.8198)">Orchard
+                        Road</button>
+                    <button type="button" class="preset-btn" onclick="setLocation(1.2644, 103.8224)">Sentosa</button>
+                </div>
+            </div>
+
+            <button onclick="processQuery()" id="processBtn">🚀 处理查询</button>
+
+            <div id="status"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>📊 解析结果与生成路线</h2>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000';
+
+        function setLocation(lat, lng) {
+            document.getElementById('lat').value = lat;
+            document.getElementById('lng').value = lng;
+        }
+
+        function setQuery(queryText) {
+            document.getElementById('query').value = queryText;
+        }
+
+        async function processQuery() {
+            const button = document.getElementById('processBtn');
+            const status = document.getElementById('status');
+            const results = document.getElementById('results');
+
+            // Get form values
+            const query = document.getElementById('query').value.trim();
+            const lat = parseFloat(document.getElementById('lat').value);
+            const lng = parseFloat(document.getElementById('lng').value);
+
+            // Validate inputs
+            if (!query) {
+                status.innerHTML = '<div class="error">❌ 请输入查询内容</div>';
+                return;
+            }
+
+            if (isNaN(lat) || isNaN(lng)) {
+                status.innerHTML = '<div class="error">❌ 请输入有效的经纬度</div>';
+                return;
+            }
+
+            // Prepare request
+            const requestData = {
+                query: query,
+                center: {
+                    lat: lat,
+                    lng: lng
+                }
+            };
+
+            // Update UI
+            button.disabled = true;
+            button.textContent = '⏳ 处理中...';
+            status.innerHTML = '<div class="loading">🔄 正在解析查询并生成路线，请稍候...</div>';
+            results.innerHTML = '';
+
+            try {
+                const response = await fetch(`${API_BASE}/api/v1/routes/query`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestData)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+
+                if (data.success && data.routes && data.routes.length > 0) {
+                    status.innerHTML = `<div class="success">✅ 成功解析查询并生成 ${data.routes.length} 条路线！</div>`;
+                    displayResults(data, requestData);
+                } else {
+                    status.innerHTML = '<div class="error">❌ 未能生成路线，请尝试调整查询内容</div>';
+                    results.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+                }
+
+            } catch (error) {
+                console.error('Error:', error);
+                status.innerHTML = `<div class="error">❌ 请求失败: ${error.message}</div>`;
+            } finally {
+                button.disabled = false;
+                button.textContent = '🚀 处理查询';
+            }
+        }
+
+        function displayResults(data, originalRequest) {
+            const results = document.getElementById('results');
+
+            // Show parsed criteria (inferred from the successful response)
+            const firstRoute = data.routes[0];
+            const metadata = firstRoute.metadata;
+
+            let parsedCriteriaHtml = `
+                <div class="parsed-criteria">
+                    <h3>🧠 NLP 解析结果</h3>
+                    <div class="criteria-grid">
+                        <div class="criteria-item">
+                            <div class="criteria-label">原始查询</div>
+                            <div class="criteria-value">"${originalRequest.query}"</div>
+                        </div>
+                        <div class="criteria-item">
+                            <div class="criteria-label">路线类型</div>
+                            <div class="criteria-value">${metadata.route_type}</div>
+                        </div>
+                        <div class="criteria-item">
+                            <div class="criteria-label">搜索半径</div>
+                            <div class="criteria-value">${metadata.search_radius_km} km</div>
+                        </div>
+                        <div class="criteria-item">
+                            <div class="criteria-label">识别的地点类型</div>
+                            <div class="criteria-value">${metadata.categories_used.join(', ')}</div>
+                        </div>
+                        <div class="criteria-item">
+                            <div class="criteria-label">中心点</div>
+                            <div class="criteria-value">[${metadata.center[0]}, ${metadata.center[1]}]</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            let routesHtml = '';
+            data.routes.forEach((route, index) => {
+                const distanceKm = (route.distance / 1000).toFixed(2);
+                const durationMin = Math.round(parseInt(route.duration.replace('s', '')) / 60);
+
+                let waypointsHtml = '';
+                route.waypoints.forEach(waypoint => {
+                    waypointsHtml += `
+                        <div class="waypoint">
+                            <strong>${waypoint.name}</strong> 
+                            <span style="color: #666;">(${waypoint.category})</span>
+                            <br>
+                            <small>⭐ ${waypoint.rating} | 📍 ${waypoint.distance_km}km from center</small>
+                        </div>
+                    `;
+                });
+
+                routesHtml += `
+                    <div class="route-card">
+                        <div class="route-header">
+                            <div class="route-title">🛣️ ${route.name}</div>
+                            <div style="color: #666;">Route ${index + 1}</div>
+                        </div>
+                        
+                        <div class="route-stats">
+                            <div class="stat">
+                                <div class="stat-value">${distanceKm}</div>
+                                <div class="stat-label">距离 (km)</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value">${durationMin}</div>
+                                <div class="stat-label">时长 (分钟)</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value">${route.waypoints.length}</div>
+                                <div class="stat-label">途径点</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value">${route.score}</div>
+                                <div class="stat-label">评分</div>
+                            </div>
+                        </div>
+                        
+                        <div class="waypoints">
+                            <h4>📍 途径点详情:</h4>
+                            ${waypointsHtml}
+                        </div>
+                        
+                        <details style="margin-top: 15px;">
+                            <summary style="cursor: pointer; font-weight: 600;">🗺️ 路线几何信息</summary>
+                            <div style="background: white; padding: 10px; margin-top: 10px; border-radius: 5px;">
+                                <p><strong>Polyline长度:</strong> ${route.geometry.overview_polyline.points.length} 字符</p>
+                                <p><strong>地图边界:</strong></p>
+                                <ul>
+                                    <li>西南角: [${route.geometry.viewport.low.latitude}, ${route.geometry.viewport.low.longitude}]</li>
+                                    <li>东北角: [${route.geometry.viewport.high.latitude}, ${route.geometry.viewport.high.longitude}]</li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
+                `;
+            });
+
+            results.innerHTML = parsedCriteriaHtml + routesHtml;
+        }
+
+        // Set default query
+        document.addEventListener('DOMContentLoaded', function () {
+            setQuery('我想找一条1小时的环形路线，经过公园和餐厅');
+        });
+    </script>
+</body>
+
+</html>

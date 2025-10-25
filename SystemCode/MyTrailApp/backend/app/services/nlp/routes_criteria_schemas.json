@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RouteCriteria",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "radius_km": {
+      "type": "number",
+      "minimum": 0.1,
+      "default": 5.0,
+      "description": "Search radius around the center point in kilometers"
+    },
+    "duration_min": {
+      "type": ["integer", "null"],
+      "minimum": 5,
+      "description": "Desired total route duration in minutes"
+    },
+    "distance_km": {
+      "type": ["number", "null"],
+      "minimum": 0.5,
+      "description": "Target total distance in kilometers"
+    },
+    "include_categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "park",
+          "restaurant",
+          "cafe",
+          "nature",
+          "attraction",
+          "shopping",
+          "retail_core",
+          "museum",
+          "landmark",
+          "waterfront",
+          "nightlife",
+          "cultural",
+          "historic"
+        ]
+      },
+      "uniqueItems": true,
+      "default": ["park"],
+      "description": "Categories that should be included in the walk"
+    },
+    "avoid_categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "park",
+          "restaurant",
+          "cafe",
+          "nature",
+          "attraction",
+          "shopping",
+          "retail_core",
+          "museum",
+          "landmark",
+          "waterfront",
+          "nightlife",
+          "cultural",
+          "historic"
+        ]
+      },
+      "uniqueItems": true,
+      "default": [],
+      "description": "Categories that should be avoided"
+    },
+    "pet_friendly": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the route must allow pets"
+    },
+    "elevation_gain_min_m": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Minimum total elevation gain in meters"
+    },
+    "route_type": {
+      "type": "string",
+      "enum": ["loop", "out_and_back", "point_to_point"],
+      "default": "loop",
+      "description": "Preferred route geometry"
+    },
+    "time_window": {
+      "type": ["string", "null"],
+      "enum": ["morning", "afternoon", "evening", "night", null],
+      "description": "Preferred time of day for the route"
+    }
+  },
+  "required": ["radius_km", "include_categories", "avoid_categories", "pet_friendly", "route_type"],
+  "examples": [
+    {
+      "radius_km": 4.5,
+      "duration_min": 60,
+      "distance_km": null,
+      "include_categories": ["park", "cafe"],
+      "avoid_categories": ["shopping"],
+      "pet_friendly": true,
+      "elevation_gain_min_m": 100,
+      "route_type": "loop",
+      "time_window": "morning"
+    }
+  ]
+}

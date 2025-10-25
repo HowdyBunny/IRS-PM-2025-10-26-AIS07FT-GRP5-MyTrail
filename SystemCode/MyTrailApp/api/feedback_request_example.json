@@ -1,0 +1,117 @@
+[
+    {
+        "id": "route_1",
+        "selected": 1,
+        "name": "Via Supertree Grove Viewpoint, Esplanade Park +1 more",
+        "distance": 6024,
+        "duration": "5041s",
+        "waypoints": [
+            {
+                "place_id": "ChIJkWHbygsZ2jERjkvNI-5be_8",
+                "name": "Supertree Grove Viewpoint",
+                "category": "park",
+                "search_category": "nature",
+                "location": {
+                    "lat": 1.281591,
+                    "lng": 103.8646819,
+                    "name": "Supertree Grove Viewpoint"
+                },
+                "rating": 4.8,
+                "distance_km": 0.49
+            },
+            {
+                "place_id": "ChIJLWy-d6cZ2jERxRto3g-f8vI",
+                "name": "Esplanade Park",
+                "category": "park",
+                "search_category": "nature",
+                "location": {
+                    "lat": 1.289901,
+                    "lng": 103.8538653,
+                    "name": "Esplanade Park"
+                },
+                "rating": 4.6,
+                "distance_km": 1.05
+            },
+            {
+                "place_id": "ChIJnWdQKQQZ2jERScXuKeFHyIE",
+                "name": "ArtScience Museum",
+                "category": "attraction",
+                "search_category": "attraction",
+                "location": {
+                    "lat": 1.2862738,
+                    "lng": 103.8592663,
+                    "name": "ArtScience Museum"
+                },
+                "rating": 4.4,
+                "distance_km": 0.36
+            }
+        ],
+        "score": 0.8,
+        "criteria": {
+            "center": {
+                "lat": 1.2834,
+                "lng": 103.8607
+            },
+            "radius_km": 3.0,
+            "duration_min": 60,
+            "route_type": "loop",
+            "include_categories": [
+                "park",
+                "restaurant"
+            ],
+            "avoid_categories": [],
+            "pet_friendly": false
+        }
+    },
+    {
+        "id": "route_2",
+        "selected": 0,
+        "name": "Via Golden Garden & Merlion",
+        "distance": 5826,
+        "duration": "4786s",
+        "waypoints": [
+            {
+                "place_id": "ChIJjzZiUAIZ2jERNSoqcM46xEA",
+                "name": "Golden Garden",
+                "category": "park",
+                "search_category": "park",
+                "location": {
+                    "lat": 1.2823959,
+                    "lng": 103.8657672,
+                    "name": "Golden Garden"
+                },
+                "rating": 4.6,
+                "distance_km": 0.57
+            },
+            {
+                "place_id": "ChIJ29omWQgZ2jEROEz2yZFzQp8",
+                "name": "Merlion",
+                "category": "park",
+                "search_category": "attraction",
+                "location": {
+                    "lat": 1.2867892,
+                    "lng": 103.8545014,
+                    "name": "Merlion"
+                },
+                "rating": 4.7,
+                "distance_km": 0.79
+            }
+        ],
+        "score": 0.8,
+        "criteria": {
+            "center": {
+                "lat": 1.2834,
+                "lng": 103.8607
+            },
+            "radius_km": 3.0,
+            "duration_min": 60,
+            "route_type": "loop",
+            "include_categories": [
+                "park",
+                "restaurant"
+            ],
+            "avoid_categories": [],
+            "pet_friendly": false
+        }
+    }
+]

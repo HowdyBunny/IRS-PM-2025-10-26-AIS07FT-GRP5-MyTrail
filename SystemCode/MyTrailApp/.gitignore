@@ -1,0 +1,9 @@
+# macOS system files
+.DS_Store
+
+.vscode/
+__pycache__/
+*.pyc
+
+# folder name and path: debug_responses, its path: backend/debug_responses
+backend/debug_responses/
