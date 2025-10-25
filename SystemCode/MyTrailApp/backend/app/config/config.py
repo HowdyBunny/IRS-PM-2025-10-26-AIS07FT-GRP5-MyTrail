@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     # Google Maps API configuration
-    google_maps_api_key: str = "****REDACTED****"
+    google_maps_api_key: str = "YOUR_GOOGLE_MAPS_API_KEY"
 
     # API configuration
     api_version: str = "1.0"
@@ -18,8 +18,8 @@ class Settings(BaseSettings):
     # openai_api_key: str = "sk-xxx" 
     # openai_base_url: str | None = None
     # TODO: Now for economic use, I set POE model first, set url to POE API endpoint:https://api.poe.com/v1
-    openai_api_key: str  = "****REDACTED****"
-    openai_base_url: str = "https://api.poe.com/v1"
+    openai_api_key: str  = "YOUR_OPENAI_API_KEY"
+    # openai_base_url: str = "https://api.poe.com/v1"
 
     # Basic NLU model configuration
     nlu_basic_model_url: str = "http://192.168.0.207:4000/predict"
